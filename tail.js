@@ -13,6 +13,8 @@ const tail = function(arr){
 
 // TEST CODE
 console.log(tail([3,4,5]));
+console.log(tail([]));
+console.log(tail([5]));
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 console.log(tail(words));
 assertEqual(words.length, 3); 
