@@ -1,5 +1,5 @@
 
-function eqArrays( arr1, arr2) {
+function assertArraysEqual( arr1, arr2) {
     let flag = false;
     
     if(arr1.length === arr2.length) {
@@ -21,5 +21,5 @@ function eqArrays( arr1, arr2) {
     }
 }    
 
-eqArrays([1, 2, 3], [1, 2, 3]);
-eqArrays([1, 2, 3], [3, 2, "1"]);
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3], [3, 2, "1"]);
