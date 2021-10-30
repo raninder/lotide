@@ -1,3 +1,5 @@
+//To find middle element of an array. If no. of elements even, return two middle elements.
+
 const eqArrays = function ( arr1, arr2){
     let flag = false;
     console.log(arr1);
