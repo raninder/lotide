@@ -9,7 +9,7 @@ const eqArrays = function ( arr1, arr2){
                 flag = true;
             }
             else {
-                flag = false;
+                return false;
             }
         }
     }
